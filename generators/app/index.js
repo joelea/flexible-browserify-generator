@@ -1,5 +1,4 @@
 var generators = require('yeoman-generator');
-var _ = require('lodash');
 
 var copyTemplate = function(filename) {
   this.fs.copyTpl(
